@@ -692,5 +692,58 @@
     "useCasesZh": [
       "使用 Modelica 对多领域动态系统进行方程式建模与仿真。"
     ]
+  },
+  {
+    "name": "OpenSCAD",
+    "url": "https://openscad.org/",
+    "category": "Geometry",
+    "license": "Open source",
+    "industries": [
+      "Mechanical & Industrial",
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "Script-based creation of solid 3D CAD models, including machine parts."
+    ],
+    "description": "Free, script-based software for creating solid 3D CAD models, focused on CAD rather than artistic 3D modeling.",
+    "ratings": {
+      "geometry": 8,
+      "meshing": 8,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 1,
+      "resultsAnalysis": 1
+    },
+    "descriptionZh": "用于创建实体三维 CAD 模型的自由软件，侧重 CAD 建模而非艺术性三维创作。",
+    "useCasesZh": [
+      "通过脚本创建实体三维 CAD 模型，例如机械零件。"
+    ]
+  },
+  {
+    "name": "PrePoMax",
+    "url": "https://prepomax.fs.um.si/",
+    "category": "Engineering Simulation Suite",
+    "license": "Open source",
+    "industries": [
+      "Mechanical & Industrial",
+      "Aerospace & Automotive",
+      "Civil & Infrastructure"
+    ],
+    "useCases": [
+      "Pre- and post-processing workflows for structural finite-element analysis with the CalculiX solver."
+    ],
+    "description": "An open-source pre- and post-processor for the CalculiX finite-element solver, with a graphical interface for finite-element workflows.",
+    "ratings": {
+      "geometry": 6,
+      "meshing": 7,
+      "materialModel": 6,
+      "loadModel": 6,
+      "analysisSolver": 5,
+      "resultsAnalysis": 6
+    },
+    "descriptionZh": "面向 CalculiX 有限元求解器的开源前处理与后处理软件，提供图形化有限元工作流程。",
+    "useCasesZh": [
+      "使用 CalculiX 求解器进行结构有限元分析的前处理与后处理。"
+    ]
   }
 ]
