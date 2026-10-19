@@ -1,0 +1,455 @@
+[
+  {
+    "name": "AquaSim",
+    "url": "https://www.aquastructures.no/",
+    "category": "Marine Dynamics",
+    "license": "Commercial",
+    "layers": {
+      "L1": "◐",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "◐",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "海洋养殖结构、网箱及相关工程分析的参考软件。"
+    ],
+    "priority": "Reference / benchmark",
+    "language": "Commercial application",
+    "description": "海洋养殖结构、网箱及相关工程分析的参考软件。",
+    "integration": "重点记录实际版本、模型交换方式和可获得的验证案例。"
+  },
+  {
+    "name": "FhSim",
+    "url": "",
+    "category": "Marine Dynamics",
+    "license": "Mixed / check",
+    "layers": {
+      "L1": "◐",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "◐",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "海洋系统和时域动力学仿真参考。"
+    ],
+    "priority": "Reference / benchmark",
+    "language": "Check version",
+    "description": "海洋系统和时域动力学仿真参考。",
+    "integration": "具体组件、许可证、API 与可访问程度需核实。"
+  },
+  {
+    "name": "OrcaFlex",
+    "url": "https://www.orcina.com/",
+    "category": "Marine Dynamics",
+    "license": "Commercial",
+    "layers": {
+      "L1": "◐",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "◐",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "海洋缆索、系泊、立管、浮体和海上作业动力学。"
+    ],
+    "priority": "Reference / benchmark",
+    "language": "Commercial application / API",
+    "description": "海洋缆索、系泊、立管、浮体和海上作业动力学。",
+    "integration": "用于工程工作流和结果对标；不可假设可以直接嵌入或重新分发。"
+  },
+  {
+    "name": "MoorDyn",
+    "url": "https://github.com/FloatingArrayDesign/MoorDyn",
+    "category": "Marine Dynamics",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "●",
+      "L3": "●",
+      "L4": "◐"
+    },
+    "layers6": [
+      "—",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "◐"
+    ],
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "海洋系泊线与缆索动力学模型。"
+    ],
+    "priority": "Integration candidate",
+    "language": "C++ / Fortran / Python interfaces",
+    "description": "海洋系泊线与缆索动力学模型。",
+    "integration": "不是完整 CAD 或卷筒排绳软件；验证变长度收放和滑轮接触边界。"
+  },
+  {
+    "name": "OpenFAST",
+    "url": "https://github.com/OpenFAST/openfast",
+    "category": "Marine Dynamics",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "—",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "风机及海上系统耦合动力学框架，包含系泊相关模块生态。"
+    ],
+    "priority": "Integration candidate",
+    "language": "Fortran / C++",
+    "description": "风机及海上系统耦合动力学框架，包含系泊相关模块生态。",
+    "integration": "按目标工况确认模块适用性。"
+  },
+  {
+    "name": "Project Chrono",
+    "url": "https://github.com/projectchrono/chrono",
+    "category": "Multibody Solver",
+    "license": "Open source",
+    "layers": {
+      "L1": "◐",
+      "L2": "●",
+      "L3": "●",
+      "L4": "◐"
+    },
+    "layers6": [
+      "◐",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "◐"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "多体动力学、接触、约束以及部分柔性结构建模。"
+    ],
+    "priority": "Core candidate",
+    "language": "C++ / Python",
+    "description": "多体动力学、接触、约束以及部分柔性结构建模。",
+    "integration": "候选机械动力学核心；需单独验证绳索绕卷、滑轮接触和变长度绳索。"
+  },
+  {
+    "name": "CalculiX",
+    "url": "https://www.calculix.de/",
+    "category": "FEM Solver",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "—",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Mechanical & Industrial",
+      "Civil & Infrastructure"
+    ],
+    "useCases": [
+      "结构有限元分析及结果输出。"
+    ],
+    "priority": "Core candidate",
+    "language": "Fortran / C",
+    "description": "结构有限元分析及结果输出。",
+    "integration": "适合作为早期结构求解器与基准案例工具。"
+  },
+  {
+    "name": "Code_Aster",
+    "url": "https://code-aster.org/",
+    "category": "FEM Solver",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "—",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Mechanical & Industrial",
+      "Civil & Infrastructure"
+    ],
+    "useCases": [
+      "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。"
+    ],
+    "priority": "Integration candidate",
+    "language": "Fortran / Python tooling",
+    "description": "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。",
+    "integration": "先作为高级分析与交叉验证工具；核实 GPL 与依赖要求。"
+  },
+  {
+    "name": "Gmsh",
+    "url": "https://gmsh.info/",
+    "category": "Mesh Generator",
+    "license": "Open source",
+    "layers": {
+      "L1": "◐",
+      "L2": "◐",
+      "L3": "—",
+      "L4": "◐"
+    },
+    "layers6": [
+      "◐",
+      "◐",
+      "待核实",
+      "待核实",
+      "—",
+      "◐"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "几何导入、网格生成、物理分组和网格导出。"
+    ],
+    "priority": "Core candidate",
+    "language": "C++ / Python API",
+    "description": "几何导入、网格生成、物理分组和网格导出。",
+    "integration": "不等同于完整参数化 CAD 内核或 FEM 求解器。"
+  },
+  {
+    "name": "OpenFOAM",
+    "url": "https://www.openfoam.com/",
+    "category": "CFD Solver",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "●",
+      "L3": "●",
+      "L4": "●"
+    },
+    "layers6": [
+      "—",
+      "●",
+      "待核实",
+      "待核实",
+      "●",
+      "●"
+    ],
+    "industries": [
+      "Mechanical & Industrial",
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "计算流体力学、流场和水动力载荷计算。"
+    ],
+    "priority": "Integration candidate",
+    "language": "C++",
+    "description": "计算流体力学、流场和水动力载荷计算。",
+    "integration": "确认发行版、版本和许可证；与结构求解器耦合属于独立工作包。"
+  },
+  {
+    "name": "ParaView / VTK",
+    "url": "https://www.paraview.org/",
+    "category": "Post-processor",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "◐",
+      "L3": "—",
+      "L4": "●"
+    },
+    "layers6": [
+      "—",
+      "◐",
+      "待核实",
+      "待核实",
+      "—",
+      "●"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "科学数据处理、网格数据读取、云图、动画和后处理。"
+    ],
+    "priority": "Core candidate",
+    "language": "C++ / Python",
+    "description": "科学数据处理、网格数据读取、云图、动画和后处理。",
+    "integration": "VTK 可用于数据结构与渲染；ParaView 可作为独立后处理工具。"
+  },
+  {
+    "name": "Blender",
+    "url": "https://www.blender.org/",
+    "category": "Visualization",
+    "license": "Open source",
+    "layers": {
+      "L1": "●",
+      "L2": "—",
+      "L3": "—",
+      "L4": "◐"
+    },
+    "layers6": [
+      "●",
+      "—",
+      "待核实",
+      "待核实",
+      "—",
+      "◐"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "通用 3D 建模、渲染和动画。"
+    ],
+    "priority": "Later / optional",
+    "language": "C / C++ / Python",
+    "description": "通用 3D 建模、渲染和动画。",
+    "integration": "适合展示和资产制作，不替代工程 CAD 内核或 FEM 求解器。"
+  },
+  {
+    "name": "Three.js",
+    "url": "https://threejs.org/",
+    "category": "Visualization",
+    "license": "Open source",
+    "layers": {
+      "L1": "◐",
+      "L2": "↗",
+      "L3": "—",
+      "L4": "◐"
+    },
+    "layers6": [
+      "◐",
+      "↗",
+      "待核实",
+      "待核实",
+      "—",
+      "◐"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "浏览器 WebGL 3D 渲染和交互。"
+    ],
+    "priority": "Core candidate",
+    "language": "JavaScript / TypeScript",
+    "description": "浏览器 WebGL 3D 渲染和交互。",
+    "integration": "前端可视化层；CAD 约束和 FEM 功能需额外开发。"
+  },
+  {
+    "name": "preCICE",
+    "url": "https://precice.org/",
+    "category": "Coupling Framework",
+    "license": "Open source",
+    "layers": {
+      "L1": "—",
+      "L2": "◐",
+      "L3": "◐",
+      "L4": "◐"
+    },
+    "layers6": [
+      "—",
+      "◐",
+      "待核实",
+      "待核实",
+      "◐",
+      "◐"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "多物理场求解器之间的数据交换、映射与耦合协调。"
+    ],
+    "priority": "Later / optional",
+    "language": "C++ / C / Python bindings",
+    "description": "多物理场求解器之间的数据交换、映射与耦合协调。",
+    "integration": "不是独立物理求解器；需评估各目标求解器的适配器。"
+  },
+  {
+    "name": "amodelConverters",
+    "url": "",
+    "category": "Model Converter",
+    "license": "Unknown",
+    "layers": {
+      "L1": "?",
+      "L2": "◐",
+      "L3": "—",
+      "L4": "?"
+    },
+    "layers6": [
+      "?",
+      "◐",
+      "待核实",
+      "待核实",
+      "—",
+      "?"
+    ],
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "模型格式转换与工程模型导入导出的候选工具。"
+    ],
+    "priority": "To investigate",
+    "language": "To verify",
+    "description": "模型格式转换与工程模型导入导出的候选工具。",
+    "integration": "请补充实际仓库地址、版本、支持格式和许可证。"
+  }
+]
