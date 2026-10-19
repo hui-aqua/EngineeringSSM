@@ -4,452 +4,693 @@
     "url": "https://www.aquastructures.no/",
     "category": "Marine Dynamics",
     "license": "Commercial",
-    "layers": {
-      "L1": "◐",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "◐",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Marine & Offshore"
     ],
     "useCases": [
-      "海洋养殖结构、网箱及相关工程分析的参考软件。"
+      "Aquaculture structures, net pens, and related engineering analysis."
     ],
-    "priority": "Reference / benchmark",
-    "language": "Commercial application",
-    "description": "海洋养殖结构、网箱及相关工程分析的参考软件。",
-    "integration": "重点记录实际版本、模型交换方式和可获得的验证案例。"
+    "description": "Aquaculture and marine-structure analysis software for fish farms, net pens, and related structures.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 5,
+      "loadModel": 2,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "海洋养殖结构、网箱及相关工程分析的参考软件。",
+    "useCasesZh": [
+      "海洋养殖结构、网箱及相关工程分析的参考软件。"
+    ]
   },
   {
     "name": "FhSim",
     "url": "",
     "category": "Marine Dynamics",
     "license": "Mixed / check",
-    "layers": {
-      "L1": "◐",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "◐",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Marine & Offshore"
     ],
     "useCases": [
-      "海洋系统和时域动力学仿真参考。"
+      "Marine systems and time-domain dynamics simulation."
     ],
-    "priority": "Reference / benchmark",
-    "language": "Check version",
-    "description": "海洋系统和时域动力学仿真参考。",
-    "integration": "具体组件、许可证、API 与可访问程度需核实。"
+    "description": "A marine systems simulation environment for time-domain analysis.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 5,
+      "loadModel": 2,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "海洋系统和时域动力学仿真参考。",
+    "useCasesZh": [
+      "海洋系统和时域动力学仿真参考。"
+    ]
   },
   {
     "name": "OrcaFlex",
     "url": "https://www.orcina.com/",
     "category": "Marine Dynamics",
     "license": "Commercial",
-    "layers": {
-      "L1": "◐",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "◐",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Marine & Offshore"
     ],
     "useCases": [
-      "海洋缆索、系泊、立管、浮体和海上作业动力学。"
+      "Dynamic analysis of marine cables, moorings, risers, floating bodies, and offshore operations."
     ],
-    "priority": "Reference / benchmark",
-    "language": "Commercial application / API",
-    "description": "海洋缆索、系泊、立管、浮体和海上作业动力学。",
-    "integration": "用于工程工作流和结果对标；不可假设可以直接嵌入或重新分发。"
+    "description": "Dynamic analysis software for offshore cables, moorings, risers, floating bodies, and marine operations.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 6,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "海洋缆索、系泊、立管、浮体和海上作业动力学。",
+    "useCasesZh": [
+      "海洋缆索、系泊、立管、浮体和海上作业动力学。"
+    ]
   },
   {
     "name": "MoorDyn",
     "url": "https://github.com/FloatingArrayDesign/MoorDyn",
     "category": "Marine Dynamics",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "●",
-      "L3": "●",
-      "L4": "◐"
-    },
-    "layers6": [
-      "—",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "◐"
-    ],
     "industries": [
       "Marine & Offshore"
     ],
     "useCases": [
-      "海洋系泊线与缆索动力学模型。"
+      "Dynamics of marine mooring lines and cables."
     ],
-    "priority": "Integration candidate",
-    "language": "C++ / Fortran / Python interfaces",
-    "description": "海洋系泊线与缆索动力学模型。",
-    "integration": "不是完整 CAD 或卷筒排绳软件；验证变长度收放和滑轮接触边界。"
+    "description": "An open-source model for the dynamics of mooring lines and cables.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 9,
+      "materialModel": 3,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 5
+    },
+    "descriptionZh": "海洋系泊线与缆索动力学模型。",
+    "useCasesZh": [
+      "海洋系泊线与缆索动力学模型。"
+    ]
   },
   {
     "name": "OpenFAST",
     "url": "https://github.com/OpenFAST/openfast",
     "category": "Marine Dynamics",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "—",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Marine & Offshore"
     ],
     "useCases": [
-      "风机及海上系统耦合动力学框架，包含系泊相关模块生态。"
+      "Coupled dynamics of wind turbines and offshore systems, including mooring applications."
     ],
-    "priority": "Integration candidate",
-    "language": "Fortran / C++",
-    "description": "风机及海上系统耦合动力学框架，包含系泊相关模块生态。",
-    "integration": "按目标工况确认模块适用性。"
+    "description": "A coupled simulation framework for wind turbines and offshore systems, with an ecosystem that includes mooring modules.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 9,
+      "materialModel": 2,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "风机及海上系统耦合动力学框架，包含系泊相关模块生态。",
+    "useCasesZh": [
+      "风机及海上系统耦合动力学框架，包含系泊相关模块生态。"
+    ]
   },
   {
     "name": "Project Chrono",
     "url": "https://github.com/projectchrono/chrono",
     "category": "Multibody Solver",
     "license": "Open source",
-    "layers": {
-      "L1": "◐",
-      "L2": "●",
-      "L3": "●",
-      "L4": "◐"
-    },
-    "layers6": [
-      "◐",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "◐"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "多体动力学、接触、约束以及部分柔性结构建模。"
+      "Multibody dynamics, contact, constraints, and selected flexible-structure models."
     ],
-    "priority": "Core candidate",
-    "language": "C++ / Python",
-    "description": "多体动力学、接触、约束以及部分柔性结构建模。",
-    "integration": "候选机械动力学核心；需单独验证绳索绕卷、滑轮接触和变长度绳索。"
+    "description": "A physics-based simulation platform for multibody dynamics, contact, constraints, and some flexible-body models.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 3,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 5
+    },
+    "descriptionZh": "多体动力学、接触、约束以及部分柔性结构建模。",
+    "useCasesZh": [
+      "多体动力学、接触、约束以及部分柔性结构建模。"
+    ]
   },
   {
     "name": "CalculiX",
     "url": "https://www.calculix.de/",
     "category": "FEM Solver",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "—",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Mechanical & Industrial",
       "Civil & Infrastructure"
     ],
     "useCases": [
-      "结构有限元分析及结果输出。"
+      "Structural finite-element analysis and results output."
     ],
-    "priority": "Core candidate",
-    "language": "Fortran / C",
-    "description": "结构有限元分析及结果输出。",
-    "integration": "适合作为早期结构求解器与基准案例工具。"
+    "description": "An open-source finite-element package for structural analysis and results output.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 9,
+      "materialModel": 6,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "结构有限元分析及结果输出。",
+    "useCasesZh": [
+      "结构有限元分析及结果输出。"
+    ]
   },
   {
     "name": "Code_Aster",
     "url": "https://code-aster.org/",
     "category": "FEM Solver",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "—",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Mechanical & Industrial",
       "Civil & Infrastructure"
     ],
     "useCases": [
-      "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。"
+      "Linear, nonlinear, and dynamic structural analysis."
     ],
-    "priority": "Integration candidate",
-    "language": "Fortran / Python tooling",
-    "description": "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。",
-    "integration": "先作为高级分析与交叉验证工具；核实 GPL 与依赖要求。"
+    "description": "A multipurpose structural finite-element solver covering a broad range of linear, nonlinear, and dynamic problems.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 9,
+      "materialModel": 6,
+      "loadModel": 5,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。",
+    "useCasesZh": [
+      "综合结构有限元分析，覆盖多种线性、非线性和动力学问题。"
+    ]
   },
   {
     "name": "Gmsh",
     "url": "https://gmsh.info/",
     "category": "Mesh Generator",
     "license": "Open source",
-    "layers": {
-      "L1": "◐",
-      "L2": "◐",
-      "L3": "—",
-      "L4": "◐"
-    },
-    "layers6": [
-      "◐",
-      "◐",
-      "待核实",
-      "待核实",
-      "—",
-      "◐"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "几何导入、网格生成、物理分组和网格导出。"
+      "Geometry import, mesh generation, physical groups, and mesh export."
     ],
-    "priority": "Core candidate",
-    "language": "C++ / Python API",
-    "description": "几何导入、网格生成、物理分组和网格导出。",
-    "integration": "不等同于完整参数化 CAD 内核或 FEM 求解器。"
+    "description": "A mesh generator with geometry import, physical groups, and mesh export.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 1,
+      "resultsAnalysis": 5
+    },
+    "descriptionZh": "几何导入、网格生成、物理分组和网格导出。",
+    "useCasesZh": [
+      "几何导入、网格生成、物理分组和网格导出。"
+    ]
   },
   {
     "name": "OpenFOAM",
     "url": "https://www.openfoam.com/",
     "category": "CFD Solver",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "●",
-      "L3": "●",
-      "L4": "●"
-    },
-    "layers6": [
-      "—",
-      "●",
-      "待核实",
-      "待核实",
-      "●",
-      "●"
-    ],
     "industries": [
       "Mechanical & Industrial",
       "Marine & Offshore"
     ],
     "useCases": [
-      "计算流体力学、流场和水动力载荷计算。"
+      "Computational fluid dynamics, flow fields, and hydrodynamic loads."
     ],
-    "priority": "Integration candidate",
-    "language": "C++",
-    "description": "计算流体力学、流场和水动力载荷计算。",
-    "integration": "确认发行版、版本和许可证；与结构求解器耦合属于独立工作包。"
+    "description": "An open-source computational-fluid-dynamics toolkit for flow simulation and hydrodynamic load analysis.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 6,
+      "materialModel": 2,
+      "loadModel": 6,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "计算流体力学、流场和水动力载荷计算。",
+    "useCasesZh": [
+      "计算流体力学、流场和水动力载荷计算。"
+    ]
   },
   {
     "name": "ParaView / VTK",
     "url": "https://www.paraview.org/",
     "category": "Post-processor",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "◐",
-      "L3": "—",
-      "L4": "●"
-    },
-    "layers6": [
-      "—",
-      "◐",
-      "待核实",
-      "待核实",
-      "—",
-      "●"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "科学数据处理、网格数据读取、云图、动画和后处理。"
+      "Scientific data processing, mesh visualization, animation, and post-processing."
     ],
-    "priority": "Core candidate",
-    "language": "C++ / Python",
-    "description": "科学数据处理、网格数据读取、云图、动画和后处理。",
-    "integration": "VTK 可用于数据结构与渲染；ParaView 可作为独立后处理工具。"
+    "description": "Tools for scientific data processing, mesh data reading, visualization, animation, and post-processing.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 1,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 1,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "科学数据处理、网格数据读取、云图、动画和后处理。",
+    "useCasesZh": [
+      "科学数据处理、网格数据读取、云图、动画和后处理。"
+    ]
   },
   {
     "name": "Blender",
     "url": "https://www.blender.org/",
     "category": "Visualization",
     "license": "Open source",
-    "layers": {
-      "L1": "●",
-      "L2": "—",
-      "L3": "—",
-      "L4": "◐"
-    },
-    "layers6": [
-      "●",
-      "—",
-      "待核实",
-      "待核实",
-      "—",
-      "◐"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "通用 3D 建模、渲染和动画。"
+      "General 3D modeling, rendering, and animation."
     ],
-    "priority": "Later / optional",
-    "language": "C / C++ / Python",
-    "description": "通用 3D 建模、渲染和动画。",
-    "integration": "适合展示和资产制作，不替代工程 CAD 内核或 FEM 求解器。"
+    "description": "A general-purpose 3D creation suite for modeling, rendering, and animation.",
+    "ratings": {
+      "geometry": 9,
+      "meshing": 6,
+      "materialModel": 2,
+      "loadModel": 1,
+      "analysisSolver": 5,
+      "resultsAnalysis": 5
+    },
+    "descriptionZh": "通用 3D 建模、渲染和动画。",
+    "useCasesZh": [
+      "通用 3D 建模、渲染和动画。"
+    ]
   },
   {
     "name": "Three.js",
     "url": "https://threejs.org/",
     "category": "Visualization",
     "license": "Open source",
-    "layers": {
-      "L1": "◐",
-      "L2": "↗",
-      "L3": "—",
-      "L4": "◐"
-    },
-    "layers6": [
-      "◐",
-      "↗",
-      "待核实",
-      "待核实",
-      "—",
-      "◐"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "浏览器 WebGL 3D 渲染和交互。"
+      "Interactive browser-based 3D graphics and WebGL visualization."
     ],
-    "priority": "Core candidate",
-    "language": "JavaScript / TypeScript",
-    "description": "浏览器 WebGL 3D 渲染和交互。",
-    "integration": "前端可视化层；CAD 约束和 FEM 功能需额外开发。"
+    "description": "A JavaScript library for interactive 3D graphics in web browsers using WebGL.",
+    "ratings": {
+      "geometry": 7,
+      "meshing": 3,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 1,
+      "resultsAnalysis": 5
+    },
+    "descriptionZh": "浏览器 WebGL 3D 渲染和交互。",
+    "useCasesZh": [
+      "浏览器 WebGL 3D 渲染和交互。"
+    ]
   },
   {
     "name": "preCICE",
     "url": "https://precice.org/",
     "category": "Coupling Framework",
     "license": "Open source",
-    "layers": {
-      "L1": "—",
-      "L2": "◐",
-      "L3": "◐",
-      "L4": "◐"
-    },
-    "layers6": [
-      "—",
-      "◐",
-      "待核实",
-      "待核实",
-      "◐",
-      "◐"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "多物理场求解器之间的数据交换、映射与耦合协调。"
+      "Data exchange, mapping, and coupling between multiphysics solvers."
     ],
-    "priority": "Later / optional",
-    "language": "C++ / C / Python bindings",
-    "description": "多物理场求解器之间的数据交换、映射与耦合协调。",
-    "integration": "不是独立物理求解器；需评估各目标求解器的适配器。"
+    "description": "A coupling framework for data exchange, mapping, and coordination between multiphysics solvers.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 5,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 5,
+      "resultsAnalysis": 1
+    },
+    "descriptionZh": "多物理场求解器之间的数据交换、映射与耦合协调。",
+    "useCasesZh": [
+      "多物理场求解器之间的数据交换、映射与耦合协调。"
+    ]
   },
   {
     "name": "amodelConverters",
     "url": "",
     "category": "Model Converter",
     "license": "Unknown",
-    "layers": {
-      "L1": "?",
-      "L2": "◐",
-      "L3": "—",
-      "L4": "?"
-    },
-    "layers6": [
-      "?",
-      "◐",
-      "待核实",
-      "待核实",
-      "—",
-      "?"
-    ],
     "industries": [
       "General / Cross-industry"
     ],
     "useCases": [
-      "模型格式转换与工程模型导入导出的候选工具。"
+      "Conversion of engineering model formats and model import/export."
     ],
-    "priority": "To investigate",
-    "language": "To verify",
-    "description": "模型格式转换与工程模型导入导出的候选工具。",
-    "integration": "请补充实际仓库地址、版本、支持格式和许可证。"
+    "description": "A candidate tool for converting engineering model formats and supporting model import and export.",
+    "ratings": {
+      "geometry": 2,
+      "meshing": 2,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 1,
+      "resultsAnalysis": 2
+    },
+    "descriptionZh": "模型格式转换与工程模型导入导出的候选工具。",
+    "useCasesZh": [
+      "模型格式转换与工程模型导入导出的候选工具。"
+    ]
+  },
+  {
+    "name": "Ansys",
+    "url": "https://www.ansys.com/products",
+    "category": "Engineering Simulation Suite",
+    "license": "Commercial",
+    "industries": [
+      "Aerospace & Automotive",
+      "Mechanical & Industrial",
+      "Wind Energy",
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "Structural, fluid, electromagnetic, and multiphysics simulation."
+    ],
+    "description": "An engineering simulation portfolio covering structural, fluid, electromagnetic, and multiphysics analysis.",
+    "ratings": {
+      "geometry": 9,
+      "meshing": 9,
+      "materialModel": 9,
+      "loadModel": 9,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "工程仿真产品组合，覆盖结构、流体、电磁及多物理场分析。",
+    "useCasesZh": [
+      "结构、流体、电磁与多物理场仿真。"
+    ]
+  },
+  {
+    "name": "Abaqus",
+    "url": "https://www.3ds.com/products/simulia/abaqus",
+    "category": "FEM Solver",
+    "license": "Commercial",
+    "industries": [
+      "Aerospace & Automotive",
+      "Mechanical & Industrial",
+      "Civil & Infrastructure"
+    ],
+    "useCases": [
+      "Structural finite-element analysis, nonlinear response, and product durability assessment."
+    ],
+    "description": "Finite-element analysis software widely used for structural, nonlinear, and multiphysics engineering problems.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 9,
+      "loadModel": 9,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "有限元分析软件，常用于结构、非线性和多物理场工程问题。",
+    "useCasesZh": [
+      "结构有限元分析、非线性响应与产品耐久性评估。"
+    ]
+  },
+  {
+    "name": "SIMA",
+    "url": "https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324/",
+    "category": "Marine Dynamics",
+    "license": "Commercial",
+    "industries": [
+      "Marine & Offshore",
+      "Wind Energy"
+    ],
+    "useCases": [
+      "Mooring and riser analysis, coupled floating-system analysis, and offshore installation simulations."
+    ],
+    "description": "Marine and multibody analysis software for mooring, floating systems, and offshore operations.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 5,
+      "loadModel": 9,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "海洋工程与多体系统分析软件，可用于系泊、浮式结构和海上作业模拟。",
+    "useCasesZh": [
+      "系泊与立管分析、浮式结构耦合分析及海上安装作业模拟。"
+    ]
+  },
+  {
+    "name": "ProteusDS",
+    "url": "https://proteusds.com/",
+    "category": "Marine Dynamics",
+    "license": "Mixed / check",
+    "industries": [
+      "Marine & Offshore"
+    ],
+    "useCases": [
+      "Time-domain dynamics of marine moorings, vessels, towed systems, and offshore structures."
+    ],
+    "description": "Marine dynamics software for time-domain simulation of vessels, mooring lines, towed systems, and offshore structures in wind, wave, and current.",
+    "ratings": {
+      "geometry": 5,
+      "meshing": 9,
+      "materialModel": 2,
+      "loadModel": 9,
+      "analysisSolver": 9,
+      "resultsAnalysis": 9
+    },
+    "descriptionZh": "海洋动力分析软件，可模拟风、浪、流环境下的船舶、系泊线和海上结构。",
+    "useCasesZh": [
+      "海洋系泊、船舶运动、拖曳系统及海上结构的时域动力分析。"
+    ]
+  },
+  {
+    "name": "REEF3D",
+    "url": "https://www.reef3d.org/",
+    "category": "CFD Solver",
+    "license": "Open source",
+    "industries": [
+      "Marine & Offshore",
+      "Civil & Infrastructure"
+    ],
+    "useCases": [
+      "Free-surface hydrodynamics, coastal and hydraulic flows, wave modeling, sediment transport, and floating-body interaction."
+    ],
+    "description": "An open-source hydrodynamics framework with CFD and wave solvers for marine, coastal, and hydraulic engineering.",
+    "ratings": {
+      "geometry": 2,
+      "meshing": 2,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 8,
+      "resultsAnalysis": 7
+    },
+    "descriptionZh": "面向海洋、海岸与水利工程的开源水动力学框架，包含 CFD 与波浪求解器。",
+    "useCasesZh": [
+      "自由液面水动力、海岸与水利流动、波浪模拟、泥沙输运及浮体相互作用。"
+    ]
+  },
+  {
+    "name": "Taichi",
+    "url": "https://github.com/taichi-dev/taichi",
+    "category": "Other",
+    "license": "Open source",
+    "industries": [
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "High-performance numerical computing and custom physical simulations on CPU and GPU."
+    ],
+    "description": "An open-source, Python-embedded parallel programming language for high-performance numerical computation, including physical simulation.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 1,
+      "materialModel": 1,
+      "loadModel": 1,
+      "analysisSolver": 6,
+      "resultsAnalysis": 4
+    },
+    "descriptionZh": "嵌入 Python 的开源并行编程语言，可用于高性能数值计算与物理仿真。",
+    "useCasesZh": [
+      "在 CPU 和 GPU 上进行高性能数值计算及定制物理仿真。"
+    ]
+  },
+  {
+    "name": "SOLIDWORKS",
+    "url": "https://www.solidworks.com/",
+    "category": "Geometry",
+    "license": "Commercial",
+    "industries": [
+      "Mechanical & Industrial",
+      "Aerospace & Automotive"
+    ],
+    "useCases": [
+      "Parametric part and assembly design, product documentation, and integrated structural design validation."
+    ],
+    "description": "A commercial 3D CAD and product development platform; structural simulation capabilities are available through SOLIDWORKS Simulation products.",
+    "ratings": {
+      "geometry": 9,
+      "meshing": 8,
+      "materialModel": 7,
+      "loadModel": 6,
+      "analysisSolver": 5,
+      "resultsAnalysis": 6
+    },
+    "descriptionZh": "商业 3D CAD 与产品开发平台；结构仿真功能通过 SOLIDWORKS Simulation 产品提供。",
+    "useCasesZh": [
+      "参数化零件与装配体设计、产品文档，以及集成式结构设计验证。"
+    ]
+  },
+  {
+    "name": "Autodesk Inventor",
+    "url": "https://www.autodesk.com/products/inventor/overview",
+    "category": "Geometry",
+    "license": "Commercial",
+    "industries": [
+      "Mechanical & Industrial",
+      "Aerospace & Automotive"
+    ],
+    "useCases": [
+      "3D mechanical part and assembly design, manufacturing documentation, visualization, and product simulation."
+    ],
+    "description": "Commercial mechanical design software for 3D modeling, simulation, visualization, and documentation.",
+    "ratings": {
+      "geometry": 9,
+      "meshing": 8,
+      "materialModel": 7,
+      "loadModel": 6,
+      "analysisSolver": 5,
+      "resultsAnalysis": 6
+    },
+    "descriptionZh": "用于三维建模、仿真、可视化和工程文档的商业机械设计软件。",
+    "useCasesZh": [
+      "三维机械零件与装配体设计、制造文档、可视化及产品仿真。"
+    ]
+  },
+  {
+    "name": "LIGGGHTS",
+    "url": "https://github.com/CFDEMproject/LIGGGHTS-PUBLIC",
+    "category": "DEM Solver",
+    "license": "Open source",
+    "industries": [
+      "Mechanical & Industrial",
+      "General / Cross-industry"
+    ],
+    "useCases": [
+      "Discrete element simulation of granular materials, particle flows, and CFD–DEM coupled systems."
+    ],
+    "description": "An open-source discrete element method (DEM) particle simulation engine; the public release is distributed under GPL-2.0-or-later.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 1,
+      "materialModel": 3,
+      "loadModel": 2,
+      "analysisSolver": 5,
+      "resultsAnalysis": 1
+    },
+    "descriptionZh": "开源离散元法（DEM）颗粒仿真引擎；公开版本采用 GPL-2.0 或更高版本许可。",
+    "useCasesZh": [
+      "颗粒材料、颗粒流及 CFD–DEM 耦合系统的离散元仿真。"
+    ]
+  },
+  {
+    "name": "SU2",
+    "url": "https://su2code.github.io/",
+    "category": "CFD Solver",
+    "license": "Open source",
+    "industries": [
+      "Aerospace & Automotive",
+      "Mechanical & Industrial",
+      "Wind Energy"
+    ],
+    "useCases": [
+      "Computational fluid dynamics, multiphysics simulation, aerodynamic shape optimization, and design on unstructured meshes."
+    ],
+    "description": "An open-source suite for computational fluid dynamics, multiphysics simulation, and design optimization.",
+    "ratings": {
+      "geometry": 1,
+      "meshing": 2,
+      "materialModel": 3,
+      "loadModel": 2,
+      "analysisSolver": 6,
+      "resultsAnalysis": 2
+    },
+    "descriptionZh": "用于计算流体力学、多物理场仿真及设计优化的开源软件套件。",
+    "useCasesZh": [
+      "非结构网格上的 CFD、多物理场仿真、气动外形优化与设计。"
+    ]
+  },
+  {
+    "name": "MATLAB & Simulink",
+    "url": "https://www.mathworks.com/products/matlab.html",
+    "category": "Engineering Simulation Suite",
+    "license": "Commercial",
+    "industries": [
+      "General / Cross-industry",
+      "Aerospace & Automotive",
+      "Mechanical & Industrial"
+    ],
+    "useCases": [
+      "Numerical computing, algorithm development, data analysis, visualization, and dynamic-system modeling and simulation with Simulink."
+    ],
+    "description": "A commercial technical computing and modeling platform: MATLAB supports numerical computing, algorithms, analysis, and visualization; Simulink adds block-diagram modeling and multidomain dynamic-system simulation.",
+    "ratings": {
+      "geometry": 2,
+      "meshing": 2,
+      "materialModel": 2,
+      "loadModel": 2,
+      "analysisSolver": 2,
+      "resultsAnalysis": 2
+    },
+    "descriptionZh": "商业技术计算与建模平台：MATLAB 用于数值计算、算法开发、分析和可视化；Simulink 提供框图建模及多领域动态系统仿真。",
+    "useCasesZh": [
+      "数值计算、算法开发、数据分析、可视化，以及使用 Simulink 进行动态系统建模与仿真。"
+    ]
+  },
+  {
+    "name": "OpenModelica",
+    "url": "https://openmodelica.org/",
+    "category": "Engineering Simulation Suite",
+    "license": "Open source",
+    "industries": [
+      "General / Cross-industry",
+      "Mechanical & Industrial",
+      "Aerospace & Automotive"
+    ],
+    "useCases": [
+      "Equation-based modeling and simulation of multidomain dynamic systems using Modelica."
+    ],
+    "description": "An open-source Modelica-based modeling and simulation environment for industrial and academic use. Its distribution offers OSMC-PL or AGPL v3 licensing choices; check the applicable terms for each distribution and use case.",
+    "ratings": {
+      "geometry": 2,
+      "meshing": 2,
+      "materialModel": 2,
+      "loadModel": 2,
+      "analysisSolver": 2,
+      "resultsAnalysis": 2
+    },
+    "descriptionZh": "面向工业和学术用途的开源 Modelica 建模与仿真环境。发行版提供 OSMC-PL 或 AGPL v3 许可选项；具体使用时应核对对应版本的许可条款。",
+    "useCasesZh": [
+      "使用 Modelica 对多领域动态系统进行方程式建模与仿真。"
+    ]
   }
 ]

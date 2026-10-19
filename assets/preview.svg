@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930" role="img" aria-labelledby="title desc">
+<title id="title">Engineering Software &amp; Library Matrix</title>
+<desc id="desc">A wide capability matrix with a selected software details panel on the left.</desc>
+<defs><linearGradient id="hero" x2="1" y2="1"><stop stop-color="#111b35"/><stop offset="1" stop-color="#243e77"/></linearGradient></defs>
+<rect width="1600" height="930" fill="#f4f6fa"/><rect width="1600" height="156" fill="url(#hero)"/>
+<text x="68" y="44" fill="#bdcbff" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="2">ENGINEERING SOFTWARE &amp; LIBRARIES</text>
+<text x="68" y="101" fill="#fff" font-family="sans-serif" font-size="34" font-weight="700">Engineering Software &amp; Library Matrix</text>
+<rect x="1245" y="52" width="110" height="42" rx="9" fill="#ffffff22" stroke="#ffffff77"/><text x="1273" y="79" fill="#fff" font-family="sans-serif" font-size="13">Overview</text>
+<rect x="1365" y="52" width="140" height="42" rx="9" fill="#ffffff22" stroke="#ffffff77"/><text x="1385" y="79" fill="#fff" font-family="sans-serif" font-size="13">＋ Add software</text>
+<rect x="1515" y="52" width="70" height="42" rx="9" fill="#ffffff22" stroke="#ffffff77"/><text x="1536" y="79" fill="#fff" font-family="sans-serif" font-size="13">中文</text>
+<rect x="44" y="184" width="1512" height="700" rx="16" fill="#fff" stroke="#dfe5ef"/>
+<rect x="68" y="208" width="300" height="40" rx="8" fill="#fff" stroke="#cfd7e5"/><text x="84" y="234" fill="#647087" font-family="sans-serif" font-size="13">Search software, features, industries...</text>
+<rect x="380" y="208" width="210" height="40" rx="8" fill="#fff" stroke="#cfd7e5"/><text x="397" y="234" fill="#172033" font-family="sans-serif" font-size="13">All categories　⌄</text>
+<rect x="602" y="208" width="210" height="40" rx="8" fill="#fff" stroke="#cfd7e5"/><text x="619" y="234" fill="#172033" font-family="sans-serif" font-size="13">All license types　⌄</text>
+<rect x="68" y="270" width="346" height="586" rx="12" fill="#fbfcff" stroke="#dfe5ef"/>
+<rect x="360" y="284" width="34" height="30" rx="7" fill="#fff" stroke="#dfe5ef"/><text x="372" y="305" fill="#647087" font-family="sans-serif" font-size="18">×</text>
+<rect x="88" y="294" width="36" height="36" rx="8" fill="#eef1f7"/><text x="106" y="317" text-anchor="middle" fill="#46536b" font-family="sans-serif" font-size="12" font-weight="700">A</text>
+<text x="136" y="318" fill="#172033" font-family="sans-serif" font-size="19" font-weight="700">Ansys</text>
+<text x="90" y="362" fill="#56627a" font-family="sans-serif" font-size="13">Engineering simulation portfolio for</text><text x="90" y="382" fill="#56627a" font-family="sans-serif" font-size="13">structural, fluid, electromagnetic, and</text><text x="90" y="402" fill="#56627a" font-family="sans-serif" font-size="13">multiphysics analysis.</text>
+<text x="90" y="445" fill="#172033" font-family="sans-serif" font-size="13" font-weight="700">Capability scores</text>
+<g font-family="sans-serif" font-size="12" fill="#46536b"><text x="90" y="481">Geometry</text><text x="90" y="523">Meshing</text><text x="90" y="565">Material Model</text><text x="90" y="607">Load Model</text><text x="90" y="649">Analysis Solver</text><text x="90" y="691">Results Analysis</text></g>
+<g fill="#e8ebf2"><rect x="90" y="489" width="290" height="9" rx="5"/><rect x="90" y="531" width="290" height="9" rx="5"/><rect x="90" y="573" width="290" height="9" rx="5"/><rect x="90" y="615" width="290" height="9" rx="5"/><rect x="90" y="657" width="290" height="9" rx="5"/><rect x="90" y="699" width="290" height="9" rx="5"/></g>
+<g fill="#3cba77"><rect x="90" y="489" width="261" height="9" rx="5"/><rect x="90" y="531" width="261" height="9" rx="5"/><rect x="90" y="573" width="261" height="9" rx="5"/><rect x="90" y="615" width="261" height="9" rx="5"/><rect x="90" y="657" width="261" height="9" rx="5"/><rect x="90" y="699" width="261" height="9" rx="5"/></g>
+<rect x="430" y="270" width="1102" height="586" rx="12" fill="#fbfcff" stroke="#dfe5ef"/>
+<rect x="430" y="270" width="1102" height="54" rx="12" fill="#fff" stroke="#dfe5ef"/>
+<rect x="448" y="280" width="118" height="34" rx="8" fill="#eaf0ff" stroke="#b9c8ff"/><text x="472" y="302" fill="#2349ce" font-family="sans-serif" font-size="12" font-weight="700">Capabilities</text>
+<rect x="574" y="280" width="104" height="34" rx="8" fill="#fff" stroke="#dfe5ef"/><text x="596" y="302" fill="#647087" font-family="sans-serif" font-size="12">Industries</text>
+<g font-family="sans-serif" font-size="11" font-weight="700" fill="#46536b" text-anchor="middle">
+<rect x="448" y="338" width="180" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="538" y="365">Software</text>
+<rect x="632" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="703" y="365">Geometry</text>
+<rect x="778" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="849" y="365">Meshing</text>
+<rect x="924" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="995" y="365">Material Model</text>
+<rect x="1070" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="1141" y="365">Load Model</text>
+<rect x="1216" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="1287" y="365">Analysis Solver</text>
+<rect x="1362" y="338" width="142" height="46" fill="#f8f9fc" stroke="#dfe5ef"/><text x="1433" y="365">Results Analysis</text>
+</g>
+<rect x="448" y="389" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="424" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　Ansys</text>
+<rect x="632" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="938" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1070" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1084" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1216" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="389" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="414" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="414" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="452" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="487" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　Abaqus</text>
+<rect x="632" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="477" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="477" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="938" y="477" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1070" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1084" y="477" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1216" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="477" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="452" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="477" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="477" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="515" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="550" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　OrcaFlex</text>
+<rect x="632" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="540" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="540" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="995" y="553" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1070" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="1141" y="553" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1216" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="540" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="515" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="540" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="540" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="578" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="613" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　OpenFOAM</text>
+<rect x="632" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="603" width="11" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="603" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="995" y="616" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1070" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="1141" y="616" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1216" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="603" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="578" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="603" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="603" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="641" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="676" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　ParaView / VTK</text>
+<rect x="632" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="666" width="11" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="666" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="995" y="679" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1070" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="1141" y="679" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1216" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="666" width="11" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="641" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="666" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="666" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="704" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="739" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　SIMA</text>
+<rect x="632" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="729" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="729" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="938" y="729" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="1070" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1084" y="729" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1216" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="729" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="704" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="729" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="729" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="448" y="767" width="180" height="58" fill="#fff" stroke="#edf0f5"/><text x="466" y="802" fill="#34405a" font-family="sans-serif" font-size="13" font-weight="700">◉　ProteusDS</text>
+<rect x="632" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="646" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="646" y="792" width="57" height="8" rx="4" fill="#3cba77"/>
+<rect x="778" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="792" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="792" y="792" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="924" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="938" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><text x="995" y="805" text-anchor="middle" fill="#7542b7" font-family="sans-serif" font-size="10">Not assessed</text>
+<rect x="1070" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1084" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1084" y="792" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1216" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1230" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1230" y="792" width="102" height="8" rx="4" fill="#3cba77"/>
+<rect x="1362" y="767" width="142" height="58" fill="#fff" stroke="#edf0f5"/><rect x="1376" y="792" width="114" height="8" rx="4" fill="#e8ebf2"/><rect x="1376" y="792" width="102" height="8" rx="4" fill="#3cba77"/>
+</svg>
